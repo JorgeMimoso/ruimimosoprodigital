@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rui Mimoso - Produção Digital</title>
+
+
+
+ <link href="favicon-96x96.png" rel="icon">
+  <link href="apple-icon-76x76.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+        <link href="css/teste.css" rel="stylesheet">
+
+
+     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/agency.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+ <style type="text/css">
+      .cookie-notification {
+        display: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        /* Set your cookie notification bar styles here */ 
+        background-color: #fff;
+        opacity: 0.8;
+      }
+    </style>   
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <script>
+  /*!
+   * JavaScript Cookie v2.0.3
+   * https://github.com/js-cookie/js-cookie
+   *
+   * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+   * Released under the MIT license
+   */
+  !function(e){if("function"==typeof define&&define.amd)define(e);else if("object"==typeof exports)module.exports=e();else{var n=window.Cookies,o=window.Cookies=e(window.jQuery);o.noConflict=function(){return window.Cookies=n,o}}}(function(){function e(){for(var e=0,n={};e<arguments.length;e++){var o=arguments[e];for(var t in o)n[t]=o[t]}return n}function n(o){function t(n,r,i){var c;if(arguments.length>1){if(i=e({path:"/"},t.defaults,i),"number"==typeof i.expires){var s=new Date;s.setMilliseconds(s.getMilliseconds()+864e5*i.expires),i.expires=s}try{c=JSON.stringify(r),/^[\{\[]/.test(c)&&(r=c)}catch(a){}return r=encodeURIComponent(String(r)),r=r.replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),n=encodeURIComponent(String(n)),n=n.replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent),n=n.replace(/[\(\)]/g,escape),document.cookie=[n,"=",r,i.expires&&"; expires="+i.expires.toUTCString(),i.path&&"; path="+i.path,i.domain&&"; domain="+i.domain,i.secure?"; secure":""].join("")}n||(c={});for(var p=document.cookie?document.cookie.split("; "):[],u=/(%[0-9A-Z]{2})+/g,d=0;d<p.length;d++){var f=p[d].split("="),l=f[0].replace(u,decodeURIComponent),m=f.slice(1).join("=");'"'===m.charAt(0)&&(m=m.slice(1,-1));try{if(m=o&&o(m,l)||m.replace(u,decodeURIComponent),this.json)try{m=JSON.parse(m)}catch(a){}if(n===l){c=m;break}n||(c[l]=m)}catch(a){}}return c}return t.get=t.set=t,t.getJSON=function(){return t.apply({json:!0},[].slice.call(arguments))},t.defaults={},t.remove=function(n,o){t(n,"",e(o,{expires:-1}))},t.withConverter=n,t}return n()});
+  </script>
+
+  <script type="text/javascript">
+    // Run the cookie notification functions once the page has loaded
+    $( document ).ready( function() {
+      cookieNotification();
+      hideCookieNotification();
+    });
+    var hideCookieNotification = function() {
+      
+      // Hide the cookie notification after 5 sec 
+      $( '.js-cookie-notification' ).delay(5000).fadeOut( "slow" );
+      
+      // Set a cookie 
+      Cookies.set('CookieNotificationCookie', 'true', { expires: 365 });
+    };
+    var cookieNotification = function() {
+      var setCookieNotification = function() {  
+        
+        // Hide the cookie notification   
+        $( '.js-cookie-notification' ).fadeOut( "slow" );
+        
+        // Set a cookie 
+        Cookies.set('CookieNotificationCookie', 'true', { expires: 365 });
+        // Stop the page reloading
+        return false;
+      };
+      // Check to see if a cookie notification has been set
+      if ( Cookies.get('CookieNotificationCookie') === 'true' ) {
+        
+        // Tell me a cookie has been set
+        console.log('cookie notification set');
+      } else {
+        // Tell me a cookie has not been set
+        console.log('cookie notification not set');
+        // Show cookie notification
+        $('.js-cookie-notification').css({ 'display' : 'block'});
+        // Hide cookie notification if link clicked
+        $('.js-cookie-notification').find('.js-cookie-notification-hide').click( setCookieNotification );
+      };          
+    }
+  </script>
+
+  </head>
+
+
+<body id="page-top">
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container" style="max-width: 80%">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" ><div class="a"><img src="logo.png" style="height: 50%;width:50%;"></div></a>  
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#como">Como</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="cookie-notification js-cookie-notification" style="z-index: 1000000">
+      <p>Cookies help us run this website. By using our website, you agree to our use of cookies. <a href="https://ruimimosodigitalpro.com/politicas" target="_blank">Learn more</a> or <a href="#" class="js-cookie-notification-hide">Agree and dismiss</a>.</p>          
+    </div>
+ <header id="header1" >
+
+    <div class="overlay" style="opacity: 0.5"></div>
+  <video playsinline="playsinline"  muted="muted" loop="loop" autoplay="autoplay">
+    <source src="banner.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100" style="max-width: 80%">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="hidden w-100 text-white">
+        <img  src="logo2.png" style="width: 50%; height: 50%" >
+        <br>
+        <br>
+        <p class="lead mb-0">Criação de campanhas nas redes sociais através de Video Marketing.</p>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+    
+
+    <section class="bg-primary" id="about" >
+
+     <div class="container" style="max-width: 80%">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h2 class="section-heading text-white">Sabia que?</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4" style="text-align: left">A internet modificou completamente o modo como as empresas comunicam com o seu público , partilhar este mesmo espaço é imprescindível para apresentar a sua proposta de valor a quem tem interesse. <br> <br>No entanto , ter muitos seguidores ou muitos gostos não é sinónimo de resultados.<br><br> A nossa missão tem o objetivo de captar para si, clientes identificados com o que tem para oferecer.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#como">Como Funciona?</a>
+          </div>
+
+          <div class="col-lg-6 mx-auto text-center" style="min-height:400px;padding-top:30px;" >
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uLbnpXDNXwc?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section >
+
+     <!-- About -->
+    <section id="como" style="padding-top: 50px">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Passo a Passo:</h2>
+
+            <h3 class="section-subheading text-muted"><br>Para a realização do projeto é preciso entender o conceito de campanha.<br><br>A nossa proposta é criar uma campanha de raiz para a sua empresa, desde a primeira etapa, o briefing até ao momento em que o seu cliente está pronto para comprar seus produtos ou serviços.<br><br>
+A campanha tem duração de 30 dias, contando a partir da data da publicação dos anúncios.
+  </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">1 - Briefing</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">O primeiro passo é entender quem é o público alvo da empresa, quem são os potenciais compradores, qual o tipo de comunicação a ter e acima de tudo definir qual é o produto ou serviço que será vendido.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">2 - Produção do Vídeo</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">O passo seguinte é a Produção do vídeo utilizando guiões eficazes na  conversão e clareza na apresentação dos produtos da sua empresa. Nesta etapa você entra em ação e pronto para gravar.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading"> 3 - Editar e Finalizar o vídeo</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">O terceiro passo ocorre dentro na nossa empresa, onde vamos editar e finalizar o vídeo  pronto para ser publicado na campanha de tráfego pago nas redes sociais.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading"> 4 - Criação das Campanhas</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">No passo seguinte ocorre a criação das campanhas no Facebook, Instagram destinadas ao público alvo segmentado no briefing da campanha. Além disso, dependendo do tipo  da campanha escolhida, realizaremos também toda a criação das páginas de captura de leads e automação de e-mails que serão enviados em sequência para os clientes.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-image">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/5.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading"> 5 - Análise de Resultados </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Em conjunto com o cliente iremos medir resultados , sendo estes finais ou pequenas alterações que possam ser feitas na decorrente campanha para maior otimização.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Do que 
+                    <br>está á 
+                    <br>espera?!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="padding-top: 0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Serviços</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+<!--               <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
+ -->
+ <img src="icon1.png" class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1">              
+ <h3 class="mb-3">Produção e Edição de Vídeos </h3>
+              <p class="text-muted mb-0">Realização e edição de vídeos com guiões claros na apresentação da sua empresa.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+ <img src="icon2.png" class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1">              
+              <h3 class="mb-3">Social Media</h3>
+              <p class="text-muted mb-0">Criação das campanhas no Facebook ou Instagram, segmentadas pelo público alvo.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+ <img src="icon3.png" class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1">              
+              <h3 class="mb-3">Email Marketing</h3>
+              <p class="text-muted mb-0">Criação de Landing Pages e Copy dos e-mails de automação.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!--   <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section> -->
+
+    <section id="contact" style="background-size: cover ;padding-top: 50px">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Gostaria de começar um projecto connosco?</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+    
+
+        
+
+        <div class="row" >
+
+
+          <div class="col-lg-2 mr-auto text-center"></div>
+
+
+          <div class="col-lg-8 mr-auto text-center" style="background: rgba(25, 25, 25, .5)">
+            <!-- Formulário -->
+            <br>
+            <br>
+              <p class="mb-5" style="color: white">Se ficou curioso, e pretende actualizar o seu negócio o quanto antes com uma campanha de video marketing, não hesite em contactar. </p>
+
+
+<div class="row">
+          <div class="col-lg-2 mr-auto text-center"></div>
+
+          <div class="col-lg-2 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1" style="color: white"></i>
+            <p>              <a href=" http://bit.ly/2DjZ0Ra" target="_blank">+351 964 932 029</a>
+</p>
+          </div>
+          <div class="col-lg-2 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-1" style="color: white"></i>
+            <p>
+              <a href="mailto:contato@ruimimosoprodigital" target="_blank" >E-mail</a>
+            </p>
+          </div>
+   <div class="col-lg-2 ml-auto text-center">
+            <i class="fab fa-facebook  fa-3x mb-3 sr-contact-2" style="color: white"></i>
+            <p><a href="https://www.facebook.com/RuiMimosoProDigital/" target="_blank">Facebook</a></p>
+          </div>
+          <div class="col-lg-2 mr-auto text-center">
+            <i class="fab fa-instagram   fa-3x mb-3 sr-contact-2" style="color: white"></i>
+            <p>
+              <a href="https://www.instagram.com/ruimimoso_prodigital" target="_blank">Instagram</a>
+            </p>
+          </div>
+          <div class="col-lg-2 mr-auto text-center"></div>
+        </div>
+
+          </div>
+
+
+          <div class="col-lg-2 mr-auto text-center"></div>
+
+        </div>
+
+
+            
+      </div>
+
+
+<!-- Formulário -->
+
+
+    </section>
+
+<footer style="background-color: #212529">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" style="color: white">
+            <span class="copyright">Copyright © ruiprodigital.com 2019</span>
+          </div>
+          <div class="col-md-4">
+            
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="https://ruimimosodigitalpro.com/politicas" target="_blank">Políticas de Privacidade</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://ruimimosodigitalpro.com/termos" target="_blank">Termos de Responsabilidade</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  <script >
+ 
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $('.a').fadeIn();
+  }
+  else {
+    $('.a').fadeOut();
+  }
+}); 
+</script>
+
+  <script type="text/javascript">
+  
+$(document).ready(function () {
+    $('div.hidden').fadeIn(5000).removeClass('hidden');
+});
+
+</script>
+<!-- remove if you already include jQuery -->
+ 
+  </body>
+
+</html>
